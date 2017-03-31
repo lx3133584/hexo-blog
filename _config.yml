@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.myliangxu.cn/
-root: /
+url: http://www.myliangxu.cn/blog2
+root: /blog2
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
