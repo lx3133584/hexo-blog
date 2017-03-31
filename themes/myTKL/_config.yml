@@ -1,6 +1,6 @@
 # config
 cover: /img/bg_img.jpg
-logo: /img/logo.png
+logo: /img/logo.jpg
 top_saying:
 - title: YOU'VE MADE A <span>BRAVE</span> DECISION, WELCOME.
 - content: 每一个不曾起舞的日子都是对生命的辜负。
@@ -10,17 +10,17 @@ excerpt_link: Read More
 
 rss: /atom.xml
 
-highlightjs: vs
+highlightjs: github
 
 #Works
-works:
-- works_name: AAA
-  works_url: /
-- works_name: BBB
-  works_url: /atom.xml
+# works:
+# - works_name: AAA
+#   works_url: /
+# - works_name: BBB
+#   works_url: /atom.xml
 
 #duoshuo name
-duoshuo:
+duoshuo: 我就是那只松鼠
 
 #disqus name
 disqus_shortname:
@@ -29,10 +29,10 @@ disqus_shortname:
 fancybox: true
 
 # Miscellaneous
-github: https://github.com/
-twitter: https://twitter.com/
+github: https://github.com/lx3133584
+QQ: http://sighttp.qq.com/authd?IDKEY=ad9f4bb6d491cb8a1a45d2810f1d27c0ae03f775c0281130
 google: https://google.com/
-weibo: http://weibo.com/
+weibo: http://weibo.com/u/3178976734
 
 #about  timeline
 timeline:
@@ -46,8 +46,8 @@ timeline:
   word: More
 
 #Links
-links:
-- name: Kieran
-  link: http://go.kieran.top/
-- name: Name
-  link: http://domain.com/
+# links:
+# - name: Kieran
+#   link: http://go.kieran.top/
+# - name: Name
+#   link: http://domain.com/
