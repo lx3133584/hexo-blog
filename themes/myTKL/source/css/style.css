@@ -3327,7 +3327,7 @@ footer .footer_bottom {
 /* Each icon is created by inserting the corret character into the
    content of the :before pseudo element. Like a boss. */
 .icon-feed:before { content: "\e631"; }
-.icon-qq:before { content: "\e630"; font-size: 1.1em; }
+.icon-qq:before { content: "\e65e"; font-size: 1.1em; }
 .icon-google-plus:before { content: "\e62d"; }
 .icon-facebook:before { content: "\e62f"; }
 .icon-sina-weibo:before { content: "\e666"; }
