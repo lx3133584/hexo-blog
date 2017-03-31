@@ -3321,15 +3321,23 @@ footer .footer_bottom {
 	max-width: 100%;
 }
 /* Import the font file with the icons in it */
-@font-face { font-family: 'icons'; src:  url('../fonts/icons.woff') format('woff'); font-weight: normal; font-style: normal; }
-/* Apply these base styles to all icons */
-.icon-feed:before, .icon-qq:before, .icon-google-plus:before, .icon-facebook:before, .icon-sina-weibo, .icon-github{ font-family: 'icons'; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; text-decoration: none; }
-/* Each icon is created by inserting the corret character into the
-   content of the :before pseudo element. Like a boss. */
-.icon-feed:before { content: "\e631"; }
-.icon-qq:before { content: "\e65e"; font-size: 1.1em; }
-.icon-google-plus:before { content: "\e62d"; }
-.icon-facebook:before { content: "\e62f"; }
-.icon-sina-weibo:before { content: "\e666"; }
-.icon-github:before { content: "\e636"; }
-/*---------------- END ------------------------*/
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1490988597470'); /* IE9*/
+  src: url('iconfont.eot?t=1490988597470#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1490988597470') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1490988597470') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1490988597470#iconfont') format('svg'); /* iOS 4.1- */
+  font-weight: normal; 
+  font-style: normal;
+}
+.icon-QQ，.icon-weibo，.icon-github {
+  font-family:"iconfont" !important;
+  speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; text-decoration: none; 
+}
+
+.icon-qq:before { content: "\e607"; }
+
+.icon-sina-weib:before { content: "\f0085"; }
+
+.icon-github:before { content: "\e85c"; }
+
