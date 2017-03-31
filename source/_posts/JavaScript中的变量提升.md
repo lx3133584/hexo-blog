@@ -2,7 +2,7 @@
 title: JavaScript中的变量提升
 tags: 
 - JavaScript
-- 原生JS
+- 原生JS语法
 categories: JavaScript
 comments: true
 ---

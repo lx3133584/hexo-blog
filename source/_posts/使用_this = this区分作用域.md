@@ -2,7 +2,7 @@
 title: 使用_this = this区分作用域
 tags: 
 - JavaScript
-- 原生JS
+- 原生JS语法
 categories: JavaScript
 comments: true
 ---
