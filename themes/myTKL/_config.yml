@@ -3,12 +3,12 @@ cover: /img/bg_img.jpg
 logo: /img/logo.jpg
 top_saying:
 - title: 欢迎来到我的博客空间。
-- content: “对我来说，博客首先是一种知识管理工具，其次才是传播工具。我的技术文章，主要用来整理我还不懂的知识。我只写那些我还没有完全掌握的东西，那些我精通的东西，往往没有动力写。炫耀从来不是我的动机，好奇才是。” --阮一峰
-bottom_saying: 虽然还没想好写点什么，但是总觉得这里放句话比较和谐。
+- content: “对我来说，博客首先是一种知识管理工具，其次才是传播工具。我的技术文章，主要用来整理我还不懂的知识。我只写那些我还没有完全掌握的东西，那些我精通的东西，往往没有动力写。炫耀从来不是我的动机，好奇才是。” ——阮一峰
+bottom_saying: 如果对本博客空间有什么建议或意见，请通过邮箱联系我：<a href="mailto:i@myliangxu.cn">i@myliangxu.cn</a>
 # Content
-excerpt_link: Read More
+excerpt_link: 更多
 
-rss: /atom.xml
+# rss: /atom.xml
 
 highlightjs: github
 
@@ -31,7 +31,6 @@ fancybox: true
 # Miscellaneous
 github: https://github.com/lx3133584
 qq: http://sighttp.qq.com/authd?IDKEY=ad9f4bb6d491cb8a1a45d2810f1d27c0ae03f775c0281130
-google: https://google.com/
 weibo: http://weibo.com/u/3178976734
 
 #about  timeline
