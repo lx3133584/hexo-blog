@@ -14,7 +14,7 @@ comments: true
 
 简单点其实跟安装其他ST插件是一样的，先Ctrl+Shift+P调出control panel，然后输入`install package`，不用输完，当输入了Install后便出来了，然后回车等待插件列表的显示，这个过程大概有个几秒钟的样子。
 
-![](如何在博客中使用SublimeText风格的代码高亮样式/1-1.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog1-1.png-shuiyin)
 
 然后输入插件名称`sublimehighlight`，选中并进行安装。如果这一步进行顺利，则跳到下一节。
 
@@ -22,11 +22,11 @@ comments: true
 
 具体做法是退出刚才的界面重新输入Ctrl+Shift+P调出control panel，输入`add repository`选中并回车。
 
-![](如何在博客中使用SublimeText风格的代码高亮样式/1-2.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog1-2.png-shuiyin)
 
 这时界面下方会出现输入repo地址的地方，将`https://github.com/n1k0/SublimeHighlight/tree/python3`输入后回车确定。
 
-![](如何在博客中使用SublimeText风格的代码高亮样式/1-3.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog1-3.png-shuiyin)
 
 当提示添加成功后再次进行上面安装插件的步骤来到插件列表，输入`sublimehighlight`，选中该插件进行安装，如果一切顺利，恭喜你万里长征第一步走完！
 
@@ -36,15 +36,15 @@ comments: true
 
 可选的样式可以在插件的GitHub主页看到，下图直接来自其项目页面，图中包括了主题的名称和预览：
 
-![](如何在博客中使用SublimeText风格的代码高亮样式/1-4.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog1-4.png-shuiyin)
 
 设置方法是依次点开`preferences=>package settings=>sublimehighlight=>settings - user`
 
-![](如何在博客中使用SublimeText风格的代码高亮样式/1-5.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog1-5.png-shuiyin)
 
 会调出一个设置页面，输入喜欢的样式的名字，像下面这样：
 
-![](如何在博客中使用SublimeText风格的代码高亮样式/1-6.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog1-6.png-shuiyin)
 
 当然，还可以指定要使用的字体等其他设置选项，同样，请前往插件主页进行参考。
 
@@ -54,12 +54,12 @@ comments: true
 
 依次点开`edit=>highlight=>convert to html`，此命令会将代码转成HTML形式。
 
-![](如何在博客中使用SublimeText风格的代码高亮样式/1-7.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog1-7.png-shuiyin)
 
 之后，在新出来的标签中，请将class为highlight的div直接ctrl+c复制。这一块便是我们需要的东西。
 
-![](如何在博客中使用SublimeText风格的代码高亮样式/1-8.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog1-8.png-shuiyin)
 
 最后，在写博客的时候，以HTML方式编辑博客，将刚才的内容进行粘贴。噢啦！
 
-**PS：当然，现在已经不建议使用这么麻烦的方法了，推荐使用hexo框架（可以参考我的hexo博文）**
+**PS：当然，现在已经不建议使用这么麻烦的方法了，推荐使用hexo框架**

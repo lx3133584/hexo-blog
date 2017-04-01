@@ -46,13 +46,13 @@ cnpm install vue-router axios --save
 ### 1.使用官网文档学习基础
 我们来看官网的一个例子：
 
-![](Vue2-0全家桶从搭建到发布（新手攻略）/1.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog1.png-shuiyin)
 
 打开 工程目录下的 App.vue
 
 template 写 html，script写 js，style写样式
 
-![](Vue2-0全家桶从搭建到发布（新手攻略）/2.jpg)
+![](http://onq4mw6xi.bkt.clouddn.com/blog2.jpg-shuiyin)
 
 为了方便叙述，我们把官网例子写在同一个组件内
 
@@ -60,23 +60,23 @@ template 写 html，script写 js，style写样式
 
 1. 一个组件下只能有一个并列的 div，可以这么写，所以复制官网示例的时候只要复制 div 里面的内容就好。
 
-![](Vue2-0全家桶从搭建到发布（新手攻略）/3.jpg)
+![](http://onq4mw6xi.bkt.clouddn.com/blog3.jpg-shuiyin)
 
 但是不能这样写:
 
-![](Vue2-0全家桶从搭建到发布（新手攻略）/4.jpg)
+![](http://onq4mw6xi.bkt.clouddn.com/blog4.jpg-shuiyin)
 
 2. 数据要写在 return 里面而不是像文档那样子写
 
-![](Vue2-0全家桶从搭建到发布（新手攻略）/5.jpg)
+![](http://onq4mw6xi.bkt.clouddn.com/blog5.jpg-shuiyin)
 
 错误的写法:
 
-![](Vue2-0全家桶从搭建到发布（新手攻略）/6.jpg)
+![](http://onq4mw6xi.bkt.clouddn.com/blog6.jpg-shuiyin)
 
 这样子可以自己啃完官网文档组件之前的部分了。
 
-![](Vue2-0全家桶从搭建到发布（新手攻略）/7.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog7.png-shuiyin)
 
 ***
 ### 2.来玩玩组件
@@ -160,7 +160,7 @@ resolve: {
 ```
 为什么要加 alias 配置项？其作用可以在文档中有相应的描述:
 
-![](Vue2-0全家桶从搭建到发布（新手攻略）/8.jpg)
+![](http://onq4mw6xi.bkt.clouddn.com/blog8.jpg-shuiyin)
 
 修改完之后的 webpack.config.js 是这样子的:
 
@@ -305,11 +305,11 @@ const app = new Vue({
 
 这样子改完再打开浏览器看看。
 
-![](Vue2-0全家桶从搭建到发布（新手攻略）/9.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog9.png-shuiyin)
 
 点击那两个链接试试，会发现 `<router-view class="view"></router-view>` 的内容已经展示出来，同时注意 **浏览器地址已经变更** 。
 
-![](Vue2-0全家桶从搭建到发布（新手攻略）/10.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog10.png-shuiyin)
 
 ***
 

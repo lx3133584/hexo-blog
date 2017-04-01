@@ -10,7 +10,7 @@ Gulp基于Node.js的前端构建工具，Gulp有许多插件（[这里是插件]
 
 假如有个本地目录，如下图：
 
-![](Gulp压缩前端CS,JS,图片文件/2-1.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog2-1.png-shuiyin)
 
 ## 环境：
 
@@ -112,11 +112,11 @@ gulp.task('watch', function() {
 ```
 然后在 cdm执行任务就可以了，例如：压缩css执行 [ gulp styles ]，等待执行完成，你就可以在dist目录下找到压缩好了的文件，如下图:
 
-![](Gulp压缩前端CS,JS,图片文件/2-2.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog2-2.png-shuiyin)
 
 看看压缩后和压缩前的大小：
 
-![](Gulp压缩前端CS,JS,图片文件/2-3.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog2-3.png-shuiyin)
 
 还是很给力的吧。
 

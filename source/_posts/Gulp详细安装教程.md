@@ -60,7 +60,7 @@ gulp 和 grunt 非常类似，但相比于 grunt 的频繁 IO 操作，gulp 的�
 
 >`cls`清空命令提示符窗口内容。
 
-![](Gulp详细安装教程/1-1.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog5-1.png-shuiyin)
 
 ## <span id="npm">3、npm介绍</span>
 ### 3.1、说明：npm（node package manager）nodejs的包管理器，用于node插件管理（包括安装、卸载、管理依赖等）；
@@ -141,7 +141,7 @@ PS：npm安装插件过程：从[http://registry.npmjs.org](http://registry.npmj
 ```
 ### 6.3、当然我们可以手动新建这个配置文件，但是作为一名有志青年，我们应该使用更为效率的方法：命令提示符执行`cnpm init`
 
-![](Gulp详细安装教程/1-2.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog5-2.png-shuiyin)
 
 ### 6.4、查看package.json帮助文档，命令提示符执行`cnpm help package.json`
 特别注意：package.json是一个普通json文件，所以不能添加任何注释。参看 [http://www.zhihu.com/question/23004511](http://www.zhihu.com/question/23004511)
@@ -152,7 +152,7 @@ PS：npm安装插件过程：从[http://registry.npmjs.org](http://registry.npmj
 
 ### 7.2、本示例以gulp-less为例（编译less文件），命令提示符执行`cnpm install gulp-less --save-dev`；
 
-![](Gulp详细安装教程/1-3.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog5-3.png-shuiyin)
 
 ### 7.3、将会安装在node_modules的gulp-less目录下，该目录下有一个gulp-less的使用帮助文档README.md；
 
@@ -198,4 +198,4 @@ gulp.task('default',['testLess', 'elseTask']);
 
 ### 10.2、使用方法：将项目导入webstorm，右键gulpfile.js 选择”Show Gulp Tasks”打开Gulp窗口，若出现”No task found”，选择右键”Reload tasks”，双击运行即可。
 
-![](Gulp详细安装教程/1-4.png)
+![](http://onq4mw6xi.bkt.clouddn.com/blog5-4.png-shuiyin)

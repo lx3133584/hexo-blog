@@ -26,7 +26,7 @@ duoshuo: 我就是那只松鼠
 disqus_shortname:
 
 #fancybox
-fancybox: true
+fancybox: false
 
 # Miscellaneous
 github: https://github.com/lx3133584
