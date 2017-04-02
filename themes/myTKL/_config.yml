@@ -20,13 +20,13 @@ highlightjs: github
 #   works_url: /atom.xml
 
 #duoshuo name
-duoshuo: 我就是那只松鼠
+duoshuo: myliangxu
 
 #disqus name
 disqus_shortname:
 
 #fancybox
-fancybox: false
+fancybox: true
 
 # Miscellaneous
 github: https://github.com/lx3133584
