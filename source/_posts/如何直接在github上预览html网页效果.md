@@ -1,9 +1,9 @@
 ---
 title: 如何直接在github上预览html网页效果
 tags: 
-- Other
+- 其它
 - Github
-categories: Other
+categories: 其它
 comments: true
 ---
 在Github上看一些项目的时候，想要看一下别人展示的DEMO，以前都是下载下来在客户端打开的。今天学到了一种方法，可以直接在网上预览DEMO。

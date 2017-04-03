@@ -1,9 +1,9 @@
 ---
 title: 如何在博客中使用SublimeText风格的代码高亮样式
 tags: 
-- Other
+- 其它
 - sublimeText
-categories: Other
+categories: 其它
 comments: true
 ---
 ## 1.安装sublimehighlight
