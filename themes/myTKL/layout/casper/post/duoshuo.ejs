@@ -51,7 +51,12 @@ var appid = 'cysVAHcPg';
     var conf = 'prod_3bd1e113f38c84b4899d53bf7e66406d';
     var width = window.innerWidth || document.documentElement.clientWidth;
     if (width < 960) {
-        window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>');
+		addEventLoad(function(){
+			var changyan_mobile = document.createElement('script');
+			changyan_mobile.id = 'changyan_mobile_js';
+			changyan_mobile.src = 'http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf;
+			document.body.appendChild(changyan_mobile);
+		})
     }
     else {
         addEventLoad(function () {
