@@ -1,0 +1,24 @@
+<a id="rocket"></a> 
+<script type="text/javascript"> 
+var rocket = document.getElementById('rocket');
+rocket.onclick = function() {
+    var time = 500;
+    var speed = 20;
+    var distance = document.body.scrollTop;
+    var easing = setInterval(function() {
+        scrollBy(0,-distance/speed);
+        if(document.body.scrollTop === 0) {
+            clearInterval(easing);
+        }
+    },time/speed)
+    
+}
+document.body.onscroll = function() {
+    if(document.body.scrollTop === 0) {
+        rocket.style.display = 'none';
+    }
+    else {
+        rocket.style.display = 'inline-block';
+    }
+}
+</script>

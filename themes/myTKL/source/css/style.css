@@ -3320,3 +3320,18 @@ footer .footer_bottom {
 #intro .col-md-8.col-md-offset-2 img {
 	max-width: 100%;
 }
+
+#rocket {
+	background:url('http://www.sxsimg.com/static/img/rocket.png') left top no-repeat;
+	width:28px;
+	height:62px;
+	position:fixed;
+	bottom:100px;
+	right:35px;
+	cursor:pointer;
+	display:none;
+	z-index:9999;
+}
+#rocket:hover {
+	background-position: right bottom;
+}
