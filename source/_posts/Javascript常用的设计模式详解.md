@@ -5,7 +5,7 @@ tags:
   - JavaScript
 comments: true
 date: 2017-04-07 13:25:47
-updated:
+updated: 2017-04-08 14:52:12
 categories: JavaScript
 ---
 阅读目录：
@@ -68,7 +68,7 @@ console.log(p1 instanceof Object); // true
 
 **复杂的工厂模式**
 
-将其成员对象的实例化推迟到子类中，子类可以重写父类接口方法以便创建的时候指定自己的对象类型。
+将其成员对象的实例化推迟到子类中，子类可以重写父类（超类）接口方法以便创建的时候指定自己的对象类型。
 
 父类只对创建过程中的一般性问题进行处理，这些处理会被子类继承，子类之间是相互独立的，具体的业务逻辑会放在子类中进行编写。
 
@@ -80,7 +80,6 @@ console.log(p1 instanceof Object); // true
 // 定义自行车的构造函数
 var BicycleShop = function(){};
 BicycleShop.prototype = {
-    constructor: BicycleShop,
     /*
     * 买自行车这个方法
     * @param {model} 自行车型号
@@ -115,7 +114,6 @@ var BicycleShop = function(name){
     }
 };
 BicycleShop.prototype = {
-    constructor: BicycleShop,
     /*
      * 买自行车这个方法
      * @param {model} 自行车型号
@@ -134,9 +132,9 @@ BicycleShop.prototype = {
             throw new Error("父类是抽象类不能直接调用，需要子类重写该方法");
         }
     };
-    // 实现原型继承
+    // *实现原型继承
     function extend(Sub,Sup) {
-        //Sub表示子类，Sup表示超类
+        //Sub表示子类，Sup表示父类（超类）
         // 首先定义一个空函数
         var F = function(){};
 
@@ -159,8 +157,8 @@ BicycleShop.prototype = {
     }
     var BicycleChild = function(name){
         this.name = name;
-// 继承构造函数父类中的属性和方法
-        BicycleShop.call(this,name);
+        // *继承构造函数父类中的属性和方法
+        BicycleShop.call(this,name);//使用call调用函数使this指向子类而不是父类
     };
     // 子类继承父类原型方法
     extend(BicycleChild,BicycleShop);
@@ -401,7 +399,7 @@ var getInstance = function(fn) {
 };
 ```
 
-如上代码：我们使用一个参数fn传递进去，如果有result这个实例的话，直接返回，否则的话，当前的getInstance函数调用fn这个函数，把返回值保存在result里面。
+如上代码：我们使用一个参数fn传递进去，如果有result这个实例的话，直接返回，否则的话，在当前的getInstance函数中使用call调用fn，生成新实例，并把实例保存在result里面。
 现在我们可以传递一个函数进去，不管他是创建div也好，还是创建iframe也好，都可以使用getInstance来获取他们的实例对象。
 
 如下测试创建iframe和创建div的代码如下：
