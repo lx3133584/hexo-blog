@@ -3,7 +3,6 @@ title: Promise对象
 tags:
   - ES6
   - 原生JS语法
-  - JavaScript
 comments: true
 date: 2017-04-11 20:37:38
 updated:
